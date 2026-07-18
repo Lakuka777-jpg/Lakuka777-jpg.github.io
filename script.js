@@ -4,15 +4,14 @@ const imagenesModelos = {
         "Imagenes/Anatema/Anatema-2.png",
         "Imagenes/Anatema/Anatema-3.png"
     ],
-    CharacterA: [
-        "Imagenes/CharacterA/CharacterA-1.png",
-        "Imagenes/CharacterA/CharacterA-2.png",
-        "Imagenes/CharacterA/CharacterA-3.png"
+    Characters: [
+        "Imagenes/Characters/Characters-1.png",
+        "Imagenes/Characters/Characters-2.png",
+        "Imagenes/Characters/Characters-3.png"
     ],
-    CharacterB: [
-        "Imagenes/CharacterB/CharacterB-1.png",
-        "Imagenes/CharacterB/CharacterB-2.png",
-        "Imagenes/CharacterB/CharacterB-3.png"
+    BatallaDeSanFrancisco: [
+        "Imagenes/BatallaDeSanFrancisco/BSF-1.png",
+        "Imagenes/BatallaDeSanFrancisco/BSF-2.png",
     ]
 };
 

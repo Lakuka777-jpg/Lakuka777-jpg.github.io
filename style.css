@@ -10,6 +10,22 @@ body {
     color: #EAE0CF;
 }
 
+.categoria-titulo {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: left;
+    color: #EAE0CF;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sub-titulo {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #EAE0CF;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 /* ===== HEADER ===== */
 header {
     background-color: #0d1131;
@@ -47,15 +63,15 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 40px;
-    border-left: 2px solid #EAE0CF;
+    padding: 20px;
 }
 
 .presentacion-img-der {
-    max-width: 100%;
+    max-width: 110%;
     max-height: 80vh;
-    border-radius: 8px;
+    border-radius: 0px;
     object-fit: cover;
+    border: 3px solid #0e143d;
 }
 
 .presentacion {
@@ -85,6 +101,9 @@ header {
 /* ===== SECCIÓN HABILIDADES ===== */
 #habilidades {
     padding: 30px 20px;
+    background-color: #090d29;
+    border-bottom: 6px solid #53637e;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.9);
 }
 
 .lista-vertical {
@@ -94,8 +113,15 @@ header {
 
 .lista-vertical li {
     padding: 14px 0;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #000000;
     font-size: 1.1em;
+}
+
+.icono-habilidad {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    vertical-align: middle;
 }
 /* ===== SECCIÓN MODELOS ===== */
 #Modelos {
@@ -117,10 +143,24 @@ header {
     background-color: #677b9e;
     padding: 30px;
     border-radius: 1px;
-    width: 400px;
-    text-align: left;
+    width: 600px;
+    text-align: center;
+    border: 1px solid #000000;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
     transition: transform 0.2s ease;
+    margin-bottom: 20px;
+}
+
+.Modelo-Horizontal-card {
+    background-color: #677b9e;
+    padding: 30px;
+    border-radius: 1px;
+    width: 400px;
+    text-align: left;
+    border: 1px solid #000000;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    transition: transform 0.2s ease;
+    margin-bottom: 20px;
 }
 
 .Modelo-card:hover {
