@@ -1,27 +1,26 @@
 .encabezado {
-  color: rgb(110, 6, 6);
+  color: #EAE0CF;
   font-family: Arial, sans-serif;
   text-align: center;
 }
 
 .presentacion {
-  color: rgb(255, 255, 255);
+  color: #EAE0CF;
   font-family: Arial, sans-serif;
   text-align: center;
 }
 
 body {
-  background-color: black;
-  color: white;
+  background-color: #4B5694;
+  color: #EAE0CF;
 }
 
 header {
-    background-color: #b3b0b0;
+    background-color: #111844;
     padding: 20px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    box-color: #f5f3f3;
     margin-bottom: 50px;
 }
