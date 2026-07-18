@@ -12,7 +12,7 @@ body {
 
 .categoria-titulo {
     font-size: 2.5em;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align: left;
     color: #EAE0CF;
     font-family: 'Times New Roman', Times, serif;
@@ -20,7 +20,7 @@ body {
 
 .sub-titulo {
     font-size: 1.5em;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-align: left;
     color: #EAE0CF;
     font-family: 'Times New Roman', Times, serif;
@@ -44,6 +44,18 @@ header {
 }
 
 /* ===== SECCIÓN PRESENTACIÓN ===== */
+
+.proyecto-fila {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    text-align: left;
+}
+
+.proyecto-fila p {
+    flex: 1;
+}
+
 .presentacion-grid {
     display: flex;
     min-height: 60vh;
@@ -67,7 +79,7 @@ header {
 }
 
 .presentacion-img-der {
-    max-width: 110%;
+    max-width: 100%;
     max-height: 80vh;
     border-radius: 0px;
     object-fit: cover;
@@ -108,11 +120,11 @@ header {
 
 .lista-vertical {
     list-style: none;
-    max-width: 200px;
+    max-width: 150px;
 }
 
 .lista-vertical li {
-    padding: 14px 0;
+    padding: 7px 0;
     border-bottom: 1px solid #000000;
     font-size: 1.1em;
 }
@@ -129,7 +141,46 @@ header {
     color: #EAE0CF;
     font-family: Arial, sans-serif;
     text-align: center;
+    padding: 10px;
+    border-bottom: 12px solid #47566e;
+}
+.proyecto-card {
+    display: flex;
+    align-items: stretch;
+    background-color: #677b9e;
+    border: 1px solid #000000;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.proyecto-imagen {
+    flex: 0 0 40%;
+}
+
+.proyecto-imagen .carrusel-img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0;
+}
+
+.proyecto-texto {
+    flex: 1;
     padding: 30px;
+    text-align: left;
+}
+
+.proyecto-texto p {
+    margin-bottom: 10px;
+}
+#Modelosf {
+    background-color: #7288AE;
+    color: #EAE0CF;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 30px;
+    
 }
 
 .Galeria {
@@ -153,7 +204,7 @@ header {
 
 .Modelo-Horizontal-card {
     background-color: #677b9e;
-    padding: 30px;
+    padding: 10px 30px 30px 30px;
     border-radius: 1px;
     width: 400px;
     text-align: left;
