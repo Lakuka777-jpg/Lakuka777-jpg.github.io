@@ -14,7 +14,7 @@ const imagenesModelos = {
         "Imagenes/CharacterB/CharacterB-2.png",
         "Imagenes/CharacterB/CharacterB-3.png"
     ]
-}
+};
 
 function cambiarImagen(boton, direccion) {
     const carrusel = boton.parentElement;
