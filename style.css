@@ -10,6 +10,7 @@ body {
     color: #EAE0CF;
 }
 
+/* ===== TÍTULOS REUTILIZABLES ===== */
 .categoria-titulo {
     font-size: 2.5em;
     margin-bottom: 10px;
@@ -44,18 +45,6 @@ header {
 }
 
 /* ===== SECCIÓN PRESENTACIÓN ===== */
-
-.proyecto-fila {
-    display: flex;
-    align-items: flex-start;
-    gap: 30px;
-    text-align: left;
-}
-
-.proyecto-fila p {
-    flex: 1;
-}
-
 .presentacion-grid {
     display: flex;
     min-height: 60vh;
@@ -81,7 +70,6 @@ header {
 .presentacion-img-der {
     max-width: 100%;
     max-height: 80vh;
-    border-radius: 0px;
     object-fit: cover;
     border: 3px solid #0e143d;
 }
@@ -105,11 +93,6 @@ header {
     margin-top: 10px;
 }
 
-.lista-habilidades {
-    list-style: none;
-    font-size: 1.3em;
-    line-height: 1.8;
-}
 /* ===== SECCIÓN HABILIDADES ===== */
 #habilidades {
     padding: 30px 20px;
@@ -129,13 +112,7 @@ header {
     font-size: 1.1em;
 }
 
-.icono-habilidad {
-    width: 20px;
-    height: 20px;
-    margin-left: 10px;
-    vertical-align: middle;
-}
-/* ===== SECCIÓN MODELOS ===== */
+/* ===== SECCIÓN MODELOS (proyectos terceros y propios) ===== */
 #Modelos {
     background-color: #7288AE;
     color: #EAE0CF;
@@ -144,6 +121,16 @@ header {
     padding: 10px;
     border-bottom: 12px solid #47566e;
 }
+
+#Modelosf {
+    background-color: #7288AE;
+    color: #EAE0CF;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 30px;
+}
+
+/* Tarjeta reutilizable: imagen + texto lado a lado */
 .proyecto-card {
     display: flex;
     align-items: stretch;
@@ -151,7 +138,7 @@ header {
     border: 1px solid #000000;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 0 auto 30px auto;
     overflow: hidden;
 }
 
@@ -174,56 +161,8 @@ header {
 .proyecto-texto p {
     margin-bottom: 10px;
 }
-#Modelosf {
-    background-color: #7288AE;
-    color: #EAE0CF;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    padding: 30px;
-    
-}
 
-.Galeria {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
-.Modelo-card {
-    background-color: #677b9e;
-    padding: 30px;
-    border-radius: 1px;
-    width: 600px;
-    text-align: center;
-    border: 1px solid #000000;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
-    transition: transform 0.2s ease;
-    margin-bottom: 20px;
-}
-
-.Modelo-Horizontal-card {
-    background-color: #677b9e;
-    padding: 10px 30px 30px 30px;
-    border-radius: 1px;
-    width: 400px;
-    text-align: left;
-    border: 1px solid #000000;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
-    transition: transform 0.2s ease;
-    margin-bottom: 20px;
-}
-
-.Modelo-card:hover {
-    transform: translateY(-5px);
-}
-
-.Modelo-card img {
-    width: 100%;
-    border-radius: 0px;
-}
-
-/* Carrusel de imágenes dentro de cada tarjeta */
+/* Carrusel de imágenes (usado dentro de .proyecto-imagen) */
 .carrusel {
     position: relative;
     display: flex;
